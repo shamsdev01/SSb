@@ -23,7 +23,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 1.jpg"
+            src="/images/slide 1.JPG"
             alt="Slide 1"
             className="w-full h-auto"
             width={800}
@@ -34,7 +34,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 2.jpg"
+            src="/images/slide 2.JPG"
             alt="Slide 2"
             className="w-full h-auto"
             width={800}
@@ -45,7 +45,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 3.jpg"
+            src="/images/slide 3.JPG"
             alt="Slide 3"
             className="w-full h-auto"
             width={800}
@@ -56,7 +56,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 4.jpg"
+            src="/images/slide 4.JPG"
             alt="Slide 4"
             className="w-full h-auto"
             width={800}
@@ -67,7 +67,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 5.jpg"
+            src="/images/slide 5.JPG"
             alt="Slide 5"
             className="w-full h-auto"
             width={800}
@@ -78,7 +78,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 6.jpg"
+            src="/images/slide 6.JPG"
             alt="Slide 6"
             className="w-full h-auto"
             width={800}
@@ -89,7 +89,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 7.jpg"
+            src="/images/slide 7.JPG"
             alt="Slide 7"
             className="w-full h-auto"
             width={800}
@@ -100,7 +100,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 8.jpg"
+            src="/images/slide 8.JPG"
             alt="Slide 8"
             className="w-full h-auto"
             width={800}
