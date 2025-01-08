@@ -15,7 +15,7 @@ module.exports = {
       ignoreDuringBuilds: true,
     },
     images: {
-      domains: ['drive.google.com'],
+      domains: ['res.cloudinary.com'],
     },
   };
   

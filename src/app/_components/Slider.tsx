@@ -23,7 +23,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide-1.jpg"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736377885/Bg_ue70uq.jpg"
             alt="Slide 1"
             className="w-full h-auto"
             width={800}
