@@ -1,13 +1,14 @@
 "use client";
 
 import Image from "next/image";
+import SSB from "public/images/SSB.jpg";
 
 export default function Hero() {
   return (
     <section
       className="relative min-h-screen bg-gradient-to-br from-[#ffefef] via-white to-[#efffef] overflow-hidden"
       style={{
-        backgroundImage: "linear-gradient(to top, white, transparent), URL('/images/chairman.png')",
+        backgroundImage: "linear-gradient(to top, white, transparent), URL('/images/Herobg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -48,7 +49,7 @@ export default function Hero() {
               </p>
               <div className="inline-flex items-center justify-center bg-[#0b4619] text-white w-16 h-16 sm:w-20 sm:h-20 rounded-full text-sm font-bold">
                 <div className="flex flex-col items-center rounded-full">
-                <Image src="/images/SSB.JPG" priority alt="logo" width={80} height={80} className="rounded-full object-cover" />
+                <Image src={SSB} priority alt="logo" width={80} height={80} className="rounded-full object-cover" />
                 </div>
               </div>
             </div>
