@@ -7,7 +7,7 @@ export default function Hero() {
     <section
       className="relative min-h-screen bg-gradient-to-br from-[#ffefef] via-white to-[#efffef] overflow-hidden"
       style={{
-        backgroundImage: "linear-gradient(to top, white, transparent), URL('/images/HeroBg.JPG')",
+        backgroundImage: "linear-gradient(to top, white, transparent), URL('/images/chairman.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
