@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Services from "./Services";
 import Image from "next/image";
-import Slider1 from "public/images/slide 1.jpg"
+import Slider1 from "public/images/slide-1.jpg"
 
 const Slider = () => {
   return (
