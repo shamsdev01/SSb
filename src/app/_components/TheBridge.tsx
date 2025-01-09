@@ -41,7 +41,7 @@ const TheBridge = () => {
           className="relative h-[500px] lg:h-[600px]"
         >
           <Image
-            src="/images/The-Bridge.jpg"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736382470/The-Bridge_chdrhm.jpg"
             alt="Hon. Setonji Sunday Balogun"
             fill
             className="object-cover object-center rounded-lg shadow-xl"
