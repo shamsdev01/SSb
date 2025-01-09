@@ -52,7 +52,7 @@ export default function Urban() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/infrastructure.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736442293/infrastructure_wrcqhm.jpg"
           alt="Urban Development Background"
           fill
           className="object-cover w-full h-full"

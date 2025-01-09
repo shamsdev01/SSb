@@ -23,7 +23,7 @@ export default function Healthcare() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/healthcare.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736439858/photo_2025-01-08_20-51-45_zlilpi.jpg"
           alt="Healthcare Background"
           fill
           className="object-cover w-full h-full"

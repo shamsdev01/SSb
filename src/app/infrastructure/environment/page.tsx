@@ -64,7 +64,7 @@ export default function Environment() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/environment.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736442304/environment_gxvi5y.jpg"
           alt="Environment Background"
           fill
           className="object-cover w-full h-full"

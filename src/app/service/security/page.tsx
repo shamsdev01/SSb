@@ -23,7 +23,7 @@ export default function Security() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/security.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736440470/photo_2025-01-08_20-51-01_lmsxpz.jpg"
           alt="Security Background"
           fill
           className="object-cover w-full h-full"

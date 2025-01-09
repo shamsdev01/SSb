@@ -23,7 +23,7 @@ export default function Welfare() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/empowerment.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736441984/photo_2025-01-08_21-01-44_jfol45.jpg"
           alt="Welfare Background"
           fill
           className="object-cover w-full h-full"
