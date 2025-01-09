@@ -23,7 +23,7 @@ export default function Education() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/graduation.jpg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736383454/photo_2025-01-08_20-54-46_ntrdkv.jpg"
           alt="Education Background"
           fill
           className="object-cover w-full h-full"

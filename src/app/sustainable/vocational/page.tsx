@@ -23,7 +23,7 @@ export default function VocationalTraining() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/vocation.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736383454/photo_2025-01-08_20-50-44_cvcmfv.jpg"
           alt="Vocational Training Background"
           fill
           className="object-cover w-full h-full"

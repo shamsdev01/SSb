@@ -23,7 +23,7 @@ export default function Tourism() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/tourism.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736384137/photo_2025-01-09_01-55-07_tdbomz.jpg"
           alt="Tourism Background"
           fill
           className="object-cover w-full h-full"

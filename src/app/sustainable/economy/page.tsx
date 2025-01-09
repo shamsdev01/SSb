@@ -23,7 +23,7 @@ export default function Economy() {
       {/* Background Image */}
       <div className="fixed inset-0 w-full h-full">
         <Image
-          src="/images/job.jpeg"
+          src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736383454/photo_2025-01-08_20-51-18_dsirl9.jpg"
           alt="Economy Background"
           fill
           className="object-cover w-full h-full"
