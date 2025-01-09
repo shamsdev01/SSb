@@ -23,7 +23,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736377885/Bg_ue70uq.jpg"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381956/slide-1_mg6z23.jpg"
             alt="Slide 1"
             className="w-full h-auto"
             width={800}
@@ -34,7 +34,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 2.JPG"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381955/slide_2_xzyykk.jpg"
             alt="Slide 2"
             className="w-full h-auto"
             width={800}
@@ -45,7 +45,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 3.JPG"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381955/slide_3_ulzsaz.jpg"
             alt="Slide 3"
             className="w-full h-auto"
             width={800}
@@ -56,7 +56,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 4.JPG"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381955/slide_4_hrfxej.jpg"
             alt="Slide 4"
             className="w-full h-auto"
             width={800}
@@ -67,7 +67,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 5.JPG"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381955/slide_5_vyffa0.jpg"
             alt="Slide 5"
             className="w-full h-auto"
             width={800}
@@ -78,7 +78,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 6.JPG"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381955/slide_6_to25vt.jpg"
             alt="Slide 6"
             className="w-full h-auto"
             width={800}
@@ -89,7 +89,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 7.JPG"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381955/slide_7_mftz4m.jpg"
             alt="Slide 7"
             className="w-full h-auto"
             width={800}
@@ -100,7 +100,7 @@ const Slider = () => {
       <SwiperSlide>
         <div>
         <Image
-            src="/images/slide 8.JPG"
+            src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381956/slide_8_omwj8c.jpg"
             alt="Slide 8"
             className="w-full h-auto"
             width={800}

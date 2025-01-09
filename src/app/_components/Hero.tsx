@@ -7,7 +7,7 @@ export default function Hero() {
     <section
       className="relative min-h-screen bg-gradient-to-br from-[#ffefef] via-white to-[#efffef] overflow-hidden"
       style={{
-        backgroundImage: "linear-gradient(to top, white, transparent), url('/images/Bg.jpg')",
+        backgroundImage: "linear-gradient(to top, white, transparent), url('https://res.cloudinary.com/dbloat0jr/image/upload/v1736377885/Bg_ue70uq.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Background Elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute right-0 top-0 w-96 h-96 bg-[#e41e26] rounded-full filter blur-3xl opacity-10" />
-        <div className="absolute left-0 bottom-0 w-96 h-96 bg-[#0b4619] rounded-full filter blur-3xl opacity-10" />
+        <div className="absolute left-0 bottom-0 Aw-96 h-96 bg-[#0b4619] rounded-full filter blur-3xl opacity-10" />
       </div>
 
       {/* Main Content */}
@@ -48,7 +48,7 @@ export default function Hero() {
               </p>
               <div className="inline-flex items-center justify-center bg-[#0b4619] text-white w-16 h-16 sm:w-20 sm:h-20 rounded-full text-sm font-bold">
                 <div className="flex flex-col items-center rounded-full">
-                <Image src="/images/SSB.JPG" priority alt="logo" width={80} height={80} className="rounded-full object-cover" />
+                <Image src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381956/SSB_jbuudq.jpg" priority alt="logo" width={80} height={80} className="rounded-full object-cover" />
                 </div>
               </div>
             </div>
