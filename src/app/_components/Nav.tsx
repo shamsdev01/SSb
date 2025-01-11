@@ -49,12 +49,10 @@ export default function Nav() {
       dropdownItems: [
         { name: "Infrastructural & Urban Development & Housing", path: "/infrastructure/urban" },
         { name: "Environment", path: "/infrastructure/environment" },
+        {name:"Key Facts", path:"/infrastructure/keyfacts"},
       ]
     },
-    { 
-      name: "Key Facts",
-      path: "/service/keyfacts",
-    }
+
   ];
 
   const dropdownVariants = {

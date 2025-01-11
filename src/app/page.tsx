@@ -7,12 +7,13 @@ import Mission from "./_components/Mission";
 import TheBridge from "./_components/TheBridge";
 import Video from "./_components/Video";
 import Carousel from "./_components/Carousel";
-
+import Services from "./_components/Services"
 export default function Home() {
   return (
     <main className="pt-16 overflow-x-hidden overflow-y-hidden">
       <Nav />
       <Hero />
+      <Services/>
       <Carousel/>
       <LetterOfIntent />
       <Video />

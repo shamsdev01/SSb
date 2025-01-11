@@ -22,11 +22,6 @@ const Slider = () => {
     >
       <SwiperSlide>
         <div>
-          <Services />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div>
           <Image
             src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381956/slide-1_mg6z23.jpg"
             alt="Slide 1"

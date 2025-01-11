@@ -1,9 +1,32 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
-const KeyFacts: React.FC = () => {
+
+
+const headerVariants = {
+  hidden: { opacity: 0, y: -50 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      stiffness: 100,
+      damping: 20
+    }
+  }
+};
+
+const KeyFacts = () => {
   return (
-    <div className="p-4 max-w-4xl mx-auto">
-      <h2 className="text-xl font-bold mb-4">Key Facts:</h2>
+    <section className="relative min-h-screen py-20 px-4 sm:px-6 lg:px-8"
+    style={{
+      backgroundImage: "linear-gradient(to top, white, transparent), url('https://res.cloudinary.com/dbloat0jr/image/upload/v1736377885/Bg_ue70uq.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}>
+    <div className="p-4 max-w-4xl mx-auto"
+    >
+  
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <h3 className="text-lg font-semibold mb-2">Primary Schools in Badagry (Central) Local Government</h3>
@@ -99,6 +122,7 @@ const KeyFacts: React.FC = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

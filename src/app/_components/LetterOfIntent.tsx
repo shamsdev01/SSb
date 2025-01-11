@@ -4,7 +4,9 @@ import { motion } from "framer-motion";
 
 export default function LetterOfIntent() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-white to-gray-50 py-20 px-4 sm:px-6 lg:px-8">
+    <section 
+      className="relative min-h-screen py-20 px-4 sm:px-6 lg:px-8"
+    >
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -18,12 +20,18 @@ export default function LetterOfIntent() {
         <div className="w-20 h-1 bg-[#e91e63] mx-auto mt-4" />
       </motion.div>
 
-      {/* Letter Content */}
+      {/* Letter Content - Added background image here */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.3 }}
-        className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-6 sm:p-8 md:p-12"
+        className="max-w-4xl mx-auto rounded-2xl shadow-xl p-6 sm:p-8 md:p-12"
+        style={{
+          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('https://res.cloudinary.com/dbloat0jr/image/upload/v1736377885/Bg_ue70uq.jpg')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="space-y-6 text-gray-700">
           <motion.p

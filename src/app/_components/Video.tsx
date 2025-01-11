@@ -1,32 +1,10 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Video() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      void videoRef.current.play().catch((error) => {
-        console.log("Autoplay prevented:", error);
-        setIsPlaying(false);
-      });
-      setIsPlaying(true);
-    }
-  }, []);
-
-  const togglePlay = () => {
-    if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.pause();
-      } else {
-        videoRef.current.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
 
   return (
     <section className="relative bg-gradient-to-br from-[#ffefef] via-white to-[#efffef] py-8">
@@ -52,28 +30,35 @@ export default function Video() {
           transition={{ delay: 0.2 }}
           className="relative max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl"
         >
-          {/* Video Player */}
-          <div className="relative">
-            <iframe
-              className="w-full h-auto max-h-[300px] object-contain"
-              src="https://drive.google.com/file/d/1XjH8PnzDelwPAXTeoolejt7l0XeEJ9QK/preview"
-              allow="autoplay"
-              allowFullScreen
-            ></iframe>
-
-            {/* Play/Pause Button Overlay - only shows when paused */}
-            {!isPlaying && (
-              <button
-                onClick={togglePlay}
-                className="absolute inset-0 w-full h-full flex items-center justify-center 
-                  bg-black/30 group hover:bg-black/40 transition-colors"
+          <div className="relative" style={{ paddingBottom: "56.25%" }}>
+            {!isPlaying ? (
+              // Thumbnail with play button
+              <div 
+                className="absolute inset-0 cursor-pointer" 
+                onClick={() => setIsPlaying(true)}
               >
-                <div className="transform transition-transform duration-200 group-hover:scale-110">
-                  <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <div className="w-0 h-0 border-t-[12px] border-t-transparent border-l-[20px] border-l-[#0b4619] border-b-[12px] border-b-transparent ml-2" />
+                <img
+                  src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736457974/photo_2025-01-08_20-55-14_nsjzwc.jpg"
+                  alt="Video Thumbnail"
+                  className="w-full h-full object-cover object-center"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors">
+                  <div className="transform transition-transform duration-200 hover:scale-110">
+                    <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
+                      <div className="w-0 h-0 border-t-[12px] border-t-transparent border-l-[20px] border-l-[#0b4619] border-b-[12px] border-b-transparent ml-2" />
+                    </div>
                   </div>
                 </div>
-              </button>
+              </div>
+            ) : (
+              // YouTube iframe
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/qLPJ-8Q_bQU?autoplay=1"
+                title="Campaign Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             )}
           </div>
         </motion.div>
