@@ -65,7 +65,7 @@ export default function Video() {
                 title="Campaign Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                playsInline // Mobile-friendly playback
+               // playsInline // Mobile-friendly playback
               />
             )}
           </div>
