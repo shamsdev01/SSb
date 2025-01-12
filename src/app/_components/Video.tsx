@@ -30,11 +30,18 @@ export default function Video() {
           transition={{ delay: 0.2 }}
           className="relative max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl"
         >
-          <div className="relative" style={{ paddingBottom: "56.25%" }}>
+          <div
+            className="relative"
+            style={{
+              paddingBottom: "56.25%", // 16:9 aspect ratio
+              position: "relative",
+              height: 0,
+            }}
+          >
             {!isPlaying ? (
               // Thumbnail with play button
-              <div 
-                className="absolute inset-0 cursor-pointer" 
+              <div
+                className="absolute inset-0 cursor-pointer"
                 onClick={() => setIsPlaying(true)}
               >
                 <img
@@ -58,6 +65,7 @@ export default function Video() {
                 title="Campaign Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                playsInline // Mobile-friendly playback
               />
             )}
           </div>
