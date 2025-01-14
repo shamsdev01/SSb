@@ -50,7 +50,7 @@ export default function Video() {
                 }}
               >
                 <img
-                  src="/api/placeholder/800/450"
+                  src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736381956/SSB_jbuudq.jpg"
                   alt="Video Thumbnail"
                   className="w-full h-full object-cover object-center"
                 />
@@ -67,19 +67,14 @@ export default function Video() {
               <iframe
                 className="absolute inset-0 w-full h-full"
                 src="https://www.youtube.com/embed/qLPJ-8Q_bQU?autoplay=1&playsinline=1"
-                title="Campaign Video"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-               //playsInline
-              />
+              ></iframe>
             )}
           </div>
         </motion.div>
       </div>
-
-      {/* Decorative Elements */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-[#e41e26] rounded-full filter blur-3xl opacity-10" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#0b4619] rounded-full filter blur-3xl opacity-10" />
     </section>
   );
 }
