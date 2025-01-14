@@ -26,7 +26,7 @@ const KeyFacts = () => {
   
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <h3 className="text-lg font-semibold mb-2">Primary Schools in Badagry (Central) Local Government</h3>
+            <h3 className="text-lg font-semibold mb-2">Primary Schools in Badagry Local Government</h3>
             <ul className="list-disc pl-5 space-y-1">
               {[
                 "L. A Pry school Alakranlumo",
@@ -87,7 +87,7 @@ const KeyFacts = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Primary Health Centres Badagry Local Government and Locations</h3>
+            <h3 className="text-lg font-semibold mb-2">Primary Health Centres in Badagry Local Government and Locations</h3>
             <ul className="list-disc pl-5 space-y-1">
               {[
                 "Ajara Topa PHC - Ajara Topa Badagry",
