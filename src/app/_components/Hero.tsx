@@ -170,7 +170,7 @@ export default function Hero() {
                 BALOGUN
               </h3>
               <div className="inline-block bg-[#0b4619] text-white px-4 py-2 rounded-md">
-                EXECUTIVE CHAIRMAN
+               AS EXECUTIVE CHAIRMAN
               </div>
             </div>
           </div>
