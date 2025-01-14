@@ -33,7 +33,7 @@ export default function Video() {
           <div
             className="relative"
             style={{
-              paddingBottom: "56.25%", // 16:9 aspect ratio
+              paddingBottom: "56.25%",
               position: "relative",
               height: 0,
             }}
@@ -43,9 +43,14 @@ export default function Video() {
               <div
                 className="absolute inset-0 cursor-pointer"
                 onClick={() => setIsPlaying(true)}
+                role="button"
+                tabIndex={0}
+                onKeyPress={(e) => {
+                  if (e.key === 'Enter') setIsPlaying(true);
+                }}
               >
                 <img
-                  src="https://res.cloudinary.com/dbloat0jr/image/upload/v1736457974/photo_2025-01-08_20-55-14_nsjzwc.jpg"
+                  src="/api/placeholder/800/450"
                   alt="Video Thumbnail"
                   className="w-full h-full object-cover object-center"
                 />
@@ -61,11 +66,11 @@ export default function Video() {
               // YouTube iframe
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/qLPJ-8Q_bQU?autoplay=1"
+                src="https://www.youtube.com/embed/qLPJ-8Q_bQU?autoplay=1&playsinline=1"
                 title="Campaign Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-               // playsInline // Mobile-friendly playback
+                playsInline
               />
             )}
           </div>
