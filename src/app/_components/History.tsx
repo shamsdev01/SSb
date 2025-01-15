@@ -20,7 +20,7 @@ const educationData = {
   },
   trainings: {
     title: "PROFESSIONAL DEVELOPMENT:",
-    content: "5. Attended many courses and training workshops which include:",
+    content: "Attended many courses and training workshops which include:",
     workshops: [
       "Seminar on \"the Methodology and Strategic Ways of Wealth Creation at the Local Government level in Nigeria\" By Academy of Management Studies, University of East London, United Kingdom.",
       "Training Workshop for Secretaries in NASU on \"Improving Operational Processes at Branch Level: Veritable Means for Organisational Goal Attainment\" By Resource Development Centre.",

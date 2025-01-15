@@ -27,7 +27,7 @@ const Slider = () => {
             alt="Slide 1"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
@@ -38,7 +38,7 @@ const Slider = () => {
             alt="Slide 2"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
@@ -49,7 +49,7 @@ const Slider = () => {
             alt="Slide 3"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
@@ -60,7 +60,7 @@ const Slider = () => {
             alt="Slide 4"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
@@ -71,7 +71,7 @@ const Slider = () => {
             alt="Slide 5"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
@@ -82,7 +82,7 @@ const Slider = () => {
             alt="Slide 6"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
@@ -93,7 +93,7 @@ const Slider = () => {
             alt="Slide 7"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
@@ -104,7 +104,7 @@ const Slider = () => {
             alt="Slide 8"
             className="w-full h-auto"
             width={800}
-            height={600}
+            height={0}
           />
         </div>
       </SwiperSlide>
