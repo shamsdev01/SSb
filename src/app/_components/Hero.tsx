@@ -53,8 +53,16 @@ export default function Hero() {
         <h3 className="text-lg font-bold text-white">
           BALOGUN
         </h3>
-        <div className="inline-block bg-[#0b4619] text-white px-4 py-2 rounded-md text-sm">
-         AS EXECUTIVE CHAIRMAN
+        <div className="flex items-center justify-center gap-2">
+          <div 
+            className="bg-red-500 w-12 h-8 flex items-center justify-center text-white text-xs font-bold" 
+            style={{ clipPath: "polygon(30% 0, 70% 0, 100% 50%, 70% 100%, 30% 100%, 0 50%)" }}
+          >
+            AS
+          </div>
+          <div className="inline-block bg-[#0b4619] text-white px-4 py-2 rounded-md text-sm">
+            EXECUTIVE CHAIRMAN
+          </div>
         </div>
       </div>
     </>
@@ -169,8 +177,16 @@ export default function Hero() {
               <h3 className="text-lg font-bold text-[#0b4619]">
                 BALOGUN
               </h3>
-              <div className="inline-block bg-[#0b4619] text-white px-4 py-2 rounded-md">
-               AS EXECUTIVE CHAIRMAN
+              <div className="flex items-center justify-center gap-2">
+                <div 
+                  className="bg-red-500 w-12 h-8 flex items-center justify-center text-white text-xs font-bold" 
+                  style={{ clipPath: "polygon(30% 0, 70% 0, 100% 50%, 70% 100%, 30% 100%, 0 50%)" }}
+                >
+                  AS
+                </div>
+                <div className="inline-block bg-[#0b4619] text-white px-4 py-2 rounded-md text-sm">
+                  EXECUTIVE CHAIRMAN
+                </div>
               </div>
             </div>
           </div>
