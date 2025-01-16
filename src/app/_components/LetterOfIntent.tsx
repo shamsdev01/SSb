@@ -27,7 +27,7 @@ export default function LetterOfIntent() {
         transition={{ duration: 1, delay: 0.3 }}
         className="max-w-4xl mx-auto rounded-2xl shadow-xl p-6 sm:p-8 md:p-12"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('https://res.cloudinary.com/dbloat0jr/image/upload/v1736377885/Bg_ue70uq.jpg')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(229, 231, 235, 0.95), rgba(209, 213, 219, 0.95)), url('https://res.cloudinary.com/dbloat0jr/image/upload/v1736377885/Bg_ue70uq.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

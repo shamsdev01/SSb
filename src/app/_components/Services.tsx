@@ -134,16 +134,30 @@ const Services = () => {
                  </span>
                </motion.div>
                 {/* Title Bar */}
-               <motion.div
-                 initial={{ scaleX: 0 }}
-                 animate={{ scaleX: 1 }}
-                 transition={{ duration: 0.8, delay: index * 0.3 + 0.2 }}
-                 className={`${theme.color} flex-1 py-2 md:py-3 px-3 sm:px-4 md:px-6 rounded-lg origin-left hover:shadow-lg transition-shadow`}
-               >
-                 <h3 className="text-white text-sm sm:text-base md:text-lg font-bold text-left">
-                   {theme.title}
-                 </h3>
-               </motion.div>
+                <motion.div
+  initial={{ scaleX: 0 }}
+  animate={{ scaleX: 1 }}
+  transition={{ duration: 0.8, delay: index * 0.3 + 0.2 }}
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className={`${theme.color} flex-1 py-2 md:py-3 px-3 sm:px-4 md:px-6 rounded-lg origin-left hover:shadow-lg transition-shadow`}
+>
+  <motion.h3
+    animate={{
+      opacity: [1, 0.6, 1], // Blinking effect
+      scale: [1, 1.02, 1], // Subtle breathing effect
+    }}
+    transition={{
+      duration: 1.5,
+      repeat: Infinity,
+      repeatType: "reverse",
+    }}
+    className="text-white text-sm sm:text-base md:text-lg font-bold text-left"
+  >
+    {theme.title}
+  </motion.h3>
+</motion.div>
+
              </button>
               {/* Accordion Content */}
              <motion.div

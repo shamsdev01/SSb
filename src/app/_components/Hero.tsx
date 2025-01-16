@@ -33,9 +33,9 @@ export default function Hero() {
       {/* Top Content */}
       <div className="text-center space-y-2">
         <div className="relative inline-block">
-          <span className="absolute -left-2 top-1/2 -translate-y-1/2 text-sm bg-red-500 text-white px-2 py-1 font-extrabold rounded-l-md rounded-r-sm">
+          {/* <span className="absolute -left-2 top-1/2 -translate-y-1/2 text-sm bg-red-500 text-white px-2 py-1 font-extrabold rounded-l-md rounded-r-sm">
             THE
-          </span>
+          </span> */}
           <h1 className="text-5xl font-extrabold text-white tracking-tight ml-8">
             BRIDGE
           </h1>
@@ -54,7 +54,7 @@ export default function Hero() {
           BALOGUN
         </h3>
         <div className="inline-block bg-[#0b4619] text-white px-4 py-2 rounded-md text-sm">
-          EXECUTIVE CHAIRMAN
+         AS EXECUTIVE CHAIRMAN
         </div>
       </div>
     </>
@@ -138,9 +138,9 @@ export default function Hero() {
           <div className="w-1/2 text-right space-y-8">
             <div className="space-y-2">
               <div className="relative inline-block">
-                <span className="absolute -left-2 top-1/2 -translate-y-1/2 text-sm bg-red-500 text-white px-2 py-1 font-extrabold rounded-l-md rounded-r-sm">
-                  THE
-                </span>
+                {/* <span className="absolute -left-2 top-1/2 -translate-y-1/2 text-sm bg-red-500 text-white px-2 py-1 font-extrabold rounded-l-md rounded-r-sm">
+                  
+                </span> */}
                 <h1 className="text-6xl font-extrabold text-[#1a1a1a] tracking-tight ml-8">
                   BRIDGE
                 </h1>
