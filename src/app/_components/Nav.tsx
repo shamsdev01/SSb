@@ -53,7 +53,7 @@ export default function Nav() {
     },
     {
       name: "Key Facts",
-      path: "/infrastructure/keyfacts"
+      path: "/keyfact"
     }
   ];
 
