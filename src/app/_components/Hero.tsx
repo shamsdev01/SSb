@@ -7,6 +7,8 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Pagination, Autoplay } from "swiper/modules";
 
+// pictures
+
 export default function Hero() {
   const images = [
     "/images/chairman.png",
