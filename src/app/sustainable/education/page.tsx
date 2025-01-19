@@ -93,10 +93,10 @@ export default function Education() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>-Construct 50 classrooms across the 23 identified primary schools to reduce student-teacher ratio to 1:30</p>
-                <p>- Purchase 5 buses for students and teachers transportation. These will aid movement of about 2500 students and teachers to and from school per day across Badagry.</p>
-                <p>- - Under the Badagry educational trust fund (BETF): 300 undergraduate students will be enlisted on yearly Bursary.</p>
-                <p>-  50 high-grade undergraduates will be enlisted for scholarship.</p>
+                <p>-Construct 100 classrooms across primary schools to reduce student-teacher ratio to 1:30</p>
+                <p>- Procure 10 buses for students and teachers' transportation. These will aid movement of about 5000 students and teachers to and from school per day across Badagry.</p>
+                <p>- Under the Badagry educational trust fund (BETF): 1000 undergraduate students will be enlisted on yearly Bursary.</p>
+                <p>- 100 high-grade undergraduates will be enlisted for scholarship.</p>
                 <p>- 100 master students will qualify for educational grants and support</p>
                 <p>- 20 PhD students will be targeted for research grants and financial aids.</p>
               </div>

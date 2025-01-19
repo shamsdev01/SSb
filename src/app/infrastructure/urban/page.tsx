@@ -142,8 +142,8 @@ export default function Urban() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>-Badagry housing estate scheme will target 500 housing units for low-income earners.</p>
-                <p>-Develop Badagry Master Plan.</p>
+                <p>-Badagry housing estate scheme will target 500 housing units to low and middle-income earners.</p>
+                <p>-Develop Badagry Master Plan and Urban planning.</p>
                 <p>-Ensuring funding of old projects initiated by the outgoing government to ascertain sustainability of our common resources.</p>
               </div>
             </motion.div>

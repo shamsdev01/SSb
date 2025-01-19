@@ -87,10 +87,10 @@ export default function Welfare() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>- Develop a data based soft loan scheme targeting 1000 small and medium business enterprises owners.</p>
-                <p>- Develop a business and commerce education platform to support small and medium business enterprises.</p>
-                <p>- Quarterly stipends, health and food support to indigent elders, orphans and widows.</p>
-                <p>- Quarterly Graduate training programme and Human capital development scheme</p>
+                <p>-Develop a data based soft loan scheme targeting 1000 small and medium business enterprises owners.</p>
+                <p>-Develop a business and commerce education platform to support small and medium business enterprises.</p>
+                <p>-Quarterly stipends, health and food support to indigent elders, orphans and widows.</p>
+                <p>-Quarterly Graduate training programme and Human capital development scheme.</p>
               </div>
             </motion.div>
           </div>

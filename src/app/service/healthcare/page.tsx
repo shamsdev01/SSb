@@ -89,7 +89,7 @@ export default function Healthcare() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>·Reduce Bed-patient ratio across the 13 identified PHC to 1:20.</p>
+                <p>·Reduce Bed-patient ratio across all the identified PHC to 1:20.</p>
                 <p>·Provision of 4 mobile buses for speed-dial medical emergency (mobile hospital).</p>
                 <p>·Embrace continuous health sensitisation.</p>
                 <p>·Provision of health facility on need base.</p>

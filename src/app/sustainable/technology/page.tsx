@@ -91,10 +91,10 @@ export default function Technology() {
               <div className="space-y-4">
                 <p className="font-semibold mb-2">Technology Innovation</p>
                 <p>
-                  Build 200-capacity Badagry tech hub centre equipped with computers, 
+                  Build 500-capacity Badagry tech hub centre equipped with computers, 
                   digital tools and free internet access. The facility will include lecture rooms, 
-                  shared-space offices, and a café. Our goal is to train 200 tech professionals 
-                  quarterly, producing 800 tech experts annually, with opportunities for graduates 
+                  shared-space offices, and a café. Our goal is to train 500 tech professionals 
+                  quarterly, producing 2000 tech experts annually, with opportunities for graduates 
                   to access affordable office space for personal use.
                 </p>
               </div>

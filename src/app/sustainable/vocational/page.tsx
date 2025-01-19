@@ -91,7 +91,7 @@ export default function VocationalTraining() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>- Facilitate training of 200 people per year.</p>
+                <p>- Facilitate training of 1000 people per year.</p>
                 <p>- Empower trained personnel with necessary tools.</p>
                 <p>- Encourage & promote start-up through financial supports & grants.</p>
               </div>

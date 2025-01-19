@@ -130,7 +130,7 @@ export default function Staff() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>·Target 50 units of staff quarters.</p>
+                <p>·Target 200 units of staff quarters.</p>
                 <p>·Build modern staff club house and canteen to enable balance working environment.</p>
               </div>
             </motion.div>
