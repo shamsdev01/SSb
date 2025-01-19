@@ -87,9 +87,9 @@ export default function Youth() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>-Yearly sponsor of Badagry football league</p>
-                <p>-Yearly sponsor of Badagry marathon</p>
-                <p>-Initiate annual Badagry sports festival</p>
+                <p>·Yearly sponsor of Badagry football league</p>
+                <p>·Yearly sponsor of Badagry marathon</p>
+                <p>·Initiate annual Badagry sports festival</p>
               </div>
             </motion.div>
           </div>

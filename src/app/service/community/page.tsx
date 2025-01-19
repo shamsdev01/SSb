@@ -92,9 +92,9 @@ export default function Community() {
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
                 <p>- Organise two (2) public engagement meetings yearly.</p>
-                <p>- Monthly media brief of Local Government activities to the public and feedback review</p>
+                <p>- Monthly media brief of Local Government activities to the public and feedback review.</p>
                 <p>- Procurement of Chieftaincy Bus for the council of Traditional Rulers and improvement on their remuneration.</p>
-                <p>- Quarterly engagement with traditional rulers on community security and policing</p>
+                <p>- Quarterly engagement with traditional rulers on community security and policing.</p>
               </div>
             </motion.div>
           </div>

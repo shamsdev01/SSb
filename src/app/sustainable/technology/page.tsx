@@ -90,7 +90,13 @@ export default function Technology() {
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
                 <p className="font-semibold mb-2">Technology Innovation</p>
-                <p>Build 200-capacity Badagry tech hub centre equip with computers, digital tools and Free internet access comprising of lecture rooms, share-space offices, and café with the goal of training 200 tech professional quarterly, a total of 800 tech expert in a year with an opportunity to have low paid office for personal use.</p>
+                <p>
+                  Build 200-capacity Badagry tech hub centre equipped with computers, 
+                  digital tools and free internet access. The facility will include lecture rooms, 
+                  shared-space offices, and a café. Our goal is to train 200 tech professionals 
+                  quarterly, producing 800 tech experts annually, with opportunities for graduates 
+                  to access affordable office space for personal use.
+                </p>
               </div>
             </motion.div>
           </div>

@@ -88,9 +88,9 @@ export default function Tourism() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>-Support and sponsor major tourist attraction festivals.</p>
-                <p>-Initiate Badagry tourism development Board</p>
-                <p>-Invest in Remodelling of tourism sites and recreational facilities.</p>
+                <p>· Support and sponsor major tourist attraction festivals</p>
+                <p>· Initiate Badagry tourism development Board</p>
+                <p>· Invest in Remodelling of tourism sites and recreational facilities</p>
               </div>
             </motion.div>
           </div>

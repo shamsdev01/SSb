@@ -116,9 +116,12 @@ export default function Fiscal() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">BLUE PRINT</h2>
               <div className="space-y-4">
-                <p>·Implement digital-based budget transparency to track public spending.</p>
-                <p>·Explore secure and transparent financial transactions.</p>
-                <p>·Ensure transparent contract awards through public advertising and proper bidding.</p>
+                <p>·Public involvement in budget presentation</p>
+                <p>·Raising the local IGR through:</p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Construction of public parking space and tolling of parking lots</li>
+                  <li>Development charges and through all the available identified streams</li>
+                </ul>
               </div>
             </motion.div>
 
@@ -130,8 +133,12 @@ export default function Fiscal() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>-Public involvement in budget presentation</p>
-                <p>-Raising the local IGR: (a) through construction of public parking space and tolling of parking lots (b) development charges and through all the available identified streams.</p>
+                <p>·Public involvement in budget presentation</p>
+                <p>·Raising the local IGR through:</p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Construction of public parking space and tolling of parking lots</li>
+                  <li>Development charges and through all the available identified streams</li>
+                </ul>
               </div>
             </motion.div>
           </div>

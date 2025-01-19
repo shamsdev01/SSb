@@ -96,10 +96,10 @@ export default function Economy() {
             >
               <h2 className="text-2xl font-bold mb-4 text-center">POLICY TARGET AND SPECIFIC GOAL</h2>
               <div className="space-y-4">
-                <p>Build 1000 (seller-customer) capacity food and Agricultural produce hub</p>
-                <p>Initiate 10-acres Badagry mechanised farm for food crop production (Food 4 All) and procurement of farm machineries.</p>
-                <p>Engagement of local engineers and artisans for direct labours and small-scale contracts under community infrastructure maintenance scheme (CIMS)</p>
-                <p>Build Badagry trade and commerce complex comprising of offices, business chambers, Halls etc</p>
+                <p>·Build 1000 (seller-customer) capacity food and Agricultural produce hub.</p>
+                <p>·Initiate 10-acres Badagry mechanised farm for food crop production (Food 4 All) and procurement of farm machineries.</p>
+                <p>·Engagement of local engineers and artisans for direct labours and small-scale contracts under community infrastructure maintenance scheme (CIMS).</p>
+                <p>·Build Badagry trade and commerce complex comprising of offices, business chambers, Halls etc.</p>
               </div>
             </motion.div>
           </div>
