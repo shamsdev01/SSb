@@ -194,7 +194,7 @@ export default function Nav() {
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white/80 backdrop-blur-md">
           {navItems.map((item) => (
             <div key={item.path}>
-              {item.path === "/" ? (
+              {!item.dropdownItems ? (
                 <Link
                   href={item.path}
                   onClick={() => setIsOpen(false)}
